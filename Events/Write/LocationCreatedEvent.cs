@@ -1,4 +1,5 @@
 ﻿using CQRS_with_Redis.Commands;
+
 namespace CQRS_with_Redis.Events
 {
     public class LocationCreatedEvent : BaseEvent

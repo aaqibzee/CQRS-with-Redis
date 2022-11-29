@@ -10,6 +10,7 @@
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
     <PackageReference Include="CqrsLite" Version="1.35.0" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="StackExchange.Redis" Version="2.6.80" />
   </ItemGroup>
@@ -17,7 +18,7 @@
   <ItemGroup>
     <Folder Include="Commands\Read\" />
     <Folder Include="CommndHandlres\Read\" />
-    <Folder Include="Controllers\Read\" />
+    <Folder Include="Controllers\Write\" />
     <Folder Include="Events\Read\" />
   </ItemGroup>
 

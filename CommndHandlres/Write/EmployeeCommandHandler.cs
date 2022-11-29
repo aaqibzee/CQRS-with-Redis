@@ -1,8 +1,6 @@
 ﻿using CQRS_with_Redis.Commands;
 using CQRS_with_Redis.Models;
 using CQRSlite.Commands;
-using CQRSlite.Messages;
-using System.Threading.Tasks;
 
 namespace CQRS_with_Redis.CommndHandlres
 {
@@ -13,7 +11,7 @@ namespace CQRS_with_Redis.CommndHandlres
         public EmployeeCommandHandler(CQRSlite.Domain.ISession session)
         {
             _session = session;
-}
+        }
 
         public async Task Handle(CreateEmployeeCommand command)
         {
