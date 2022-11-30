@@ -17,11 +17,4 @@
     <PackageReference Include="StackExchange.Redis" Version="2.6.80" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Commands\Read\" />
-    <Folder Include="CommndHandlres\Read\" />
-    <Folder Include="Controllers\Write\" />
-    <Folder Include="Events\Read\" />
-  </ItemGroup>
-
 </Project>
