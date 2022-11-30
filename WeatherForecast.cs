@@ -1,4 +1,4 @@
-namespace CQRS_with_Redis
+namespace CQRS_with_event_Sourcing_pattern
 {
     public class WeatherForecast
     {

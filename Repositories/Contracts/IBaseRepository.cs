@@ -1,4 +1,4 @@
-﻿namespace CQRS_with_Redis.Repositories
+﻿namespace CQRS_with_event_Sourcing_pattern.Repositories
 {
     public interface IBaseRepository<T>
     {

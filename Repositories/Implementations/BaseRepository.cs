@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using StackExchange.Redis;
 using System.IO;
-namespace CQRS_with_Redis.Repositories.Implementations
+namespace CQRS_with_event_Sourcing_pattern.Repositories.Implementations
 {
     public class BaseRepository
     {

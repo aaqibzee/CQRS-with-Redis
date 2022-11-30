@@ -1,6 +1,6 @@
-﻿using CQRS_with_Redis.Commands;
+﻿using CQRS_with_event_Sourcing_pattern.Commands;
 
-namespace CQRS_with_Redis.Events
+namespace CQRS_with_event_Sourcing_pattern.Events
 {
     public class EmployeeRemovedFromLocationEvent : BaseEvent
     {

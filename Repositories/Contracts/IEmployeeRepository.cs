@@ -1,6 +1,6 @@
-﻿using CQRS_with_Redis.Models.Read;
+﻿using CQRS_with_event_Sourcing_pattern.Models.Read;
 
-namespace CQRS_with_Redis.Repositories
+namespace CQRS_with_event_Sourcing_pattern.Repositories
 {
     public interface IEmployeeRepository : IBaseRepository<EmployeeRM>
     {

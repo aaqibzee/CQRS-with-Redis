@@ -1,7 +1,7 @@
 ﻿using CQRSlite.Commands;
 using CQRSlite.Events;
 
-namespace CQRS_with_Redis.Commands
+namespace CQRS_with_event_Sourcing_pattern.Commands
 {
     public class BaseCommand : ICommand
     {

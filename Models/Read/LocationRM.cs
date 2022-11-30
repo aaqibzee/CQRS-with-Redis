@@ -1,4 +1,4 @@
-﻿namespace CQRS_with_Redis.Models.Read
+﻿namespace CQRS_with_event_Sourcing_pattern.Models.Read
 {
     public class LocationRM
     {

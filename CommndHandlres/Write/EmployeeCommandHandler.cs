@@ -1,8 +1,8 @@
-﻿using CQRS_with_Redis.Commands;
-using CQRS_with_Redis.Models;
+﻿using CQRS_with_event_Sourcing_pattern.Commands;
+using CQRS_with_event_Sourcing_pattern.Models;
 using CQRSlite.Commands;
 
-namespace CQRS_with_Redis.CommndHandlres
+namespace CQRS_with_event_Sourcing_pattern.CommndHandlres
 {
     public class EmployeeCommandHandler : ICommandHandler<CreateEmployeeCommand>
     {

@@ -1,7 +1,7 @@
-﻿using CQRS_with_Redis.Models.Read;
+﻿using CQRS_with_event_Sourcing_pattern.Models.Read;
 using StackExchange.Redis;
 
-namespace CQRS_with_Redis.Repositories.Implementations
+namespace CQRS_with_event_Sourcing_pattern.Repositories.Implementations
 {
     public class EmployeeRepository : BaseRepository, IEmployeeRepository
     {

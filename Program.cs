@@ -1,5 +1,6 @@
-using CQRS_with_Redis.Repositories;
-using CQRS_with_Redis.Repositories.Implementations;
+using CQRS_with_event_Sourcing_pattern.Repositories;
+using CQRS_with_event_Sourcing_pattern.Repositories.Implementations;
+using CQRS_with_Redis.Validation;
 using Microsoft.Extensions.Configuration;
 using StackExchange.Redis;
 
@@ -11,6 +12,7 @@ builder.Services.AddControllers();
 builder.Services.AddScoped<IEmployeeRepository, EmployeeRepository>();
 builder.Services.AddScoped<ILocationRepository, LocationRepository>();
 builder.Services.AddSingleton<IConnectionMultiplexer>(sp => ConnectionMultiplexer.Connect("localhost"));
+
 
 var app = builder.Build();
 

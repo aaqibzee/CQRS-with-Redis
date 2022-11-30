@@ -1,5 +1,5 @@
-﻿using CQRS_with_Redis.Models.Read;
-namespace CQRS_with_Redis.Repositories
+﻿using CQRS_with_event_Sourcing_pattern.Models.Read;
+namespace CQRS_with_event_Sourcing_pattern.Repositories
 {
     public interface ILocationRepository : IBaseRepository<LocationRM>
     {

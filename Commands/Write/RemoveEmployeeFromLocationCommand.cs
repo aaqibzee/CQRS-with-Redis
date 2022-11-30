@@ -1,4 +1,4 @@
-﻿namespace CQRS_with_Redis.Commands
+﻿namespace CQRS_with_event_Sourcing_pattern.Commands
 {
     public class RemoveEmployeeFromLocationCommand : BaseCommand
     {

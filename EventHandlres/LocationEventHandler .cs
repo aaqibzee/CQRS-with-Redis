@@ -1,10 +1,10 @@
 ﻿using AutoMapper;
-using CQRS_with_Redis.Events;
-using CQRS_with_Redis.Models.Read;
-using CQRS_with_Redis.Repositories;
+using CQRS_with_event_Sourcing_pattern.Events;
+using CQRS_with_event_Sourcing_pattern.Models.Read;
+using CQRS_with_event_Sourcing_pattern.Repositories;
 using CQRSlite.Events;
 
-namespace CQRS_with_Redis.EventHandlres
+namespace CQRS_with_event_Sourcing_pattern.EventHandlres
 {
     public class LocationEventHandler : IEventHandler<LocationCreatedEvent>,
                                      IEventHandler<EmployeeAssignedToLocationEvent>,

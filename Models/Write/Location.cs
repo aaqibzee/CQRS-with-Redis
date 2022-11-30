@@ -1,6 +1,6 @@
-﻿using CQRS_with_Redis.Events;
+﻿using CQRS_with_event_Sourcing_pattern.Events;
 using CQRSlite.Domain;
-namespace CQRS_with_Redis.Models
+namespace CQRS_with_event_Sourcing_pattern.Models
 {
     public class Location : AggregateRoot
     {

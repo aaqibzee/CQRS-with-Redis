@@ -9,7 +9,9 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.0" />
-    <PackageReference Include="CqrsLite" Version="1.35.0" />
+    <PackageReference Include="Cqrs" Version="4.4.1.24" />
+    <PackageReference Include="CqrsLite" Version="0.9.9" />
+    <PackageReference Include="FluentValidation" Version="11.4.0" />
     <PackageReference Include="Microsoft.AspNet.WebApi.Core" Version="5.2.9" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.2" />
     <PackageReference Include="StackExchange.Redis" Version="2.6.80" />
